@@ -1,0 +1,323 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+      <!-- offcanvas area start -->
+      <div class="offcanvas__area">
+         <div class="offcanvas__wrapper">
+            <div class="offcanvas__close">
+               <button class="offcanvas__close-btn" id="offcanvas__close-btn">
+                  <i class="fal fa-times"></i>
+               </button>
+            </div>
+            <div class="offcanvas__content">
+               <div class="offcanvas__logo mb-40">
+                  <a href="index.html">
+                  <img src="{% static 'img/logo/logo-black.png' %}" alt="logo">
+                  </a>
+               </div>
+               <div class="offcanvas__search mb-25">
+                  <form action="#">
+                     <input type="text" placeholder="دنبال چه می‌گردید؟">
+                     <button type="submit" ><i class="far fa-search"></i></button>
+                  </form>
+               </div>
+               <div class="mobile-menu fix"></div>
+               <div class="offcanvas__text d-none d-lg-block">
+                  <p> اما من باید برای شما توضیح دهم که چگونه این ایده اشتباه در مورد محکوم کردن لذت و ستایش درد متولد شده است و به شما گزارش کاملی از سیستم می دهد و آموزه های واقعی اکتشاف بزرگ را شرح می دهد </p>
+               </div>
+               <div class="offcanvas__img d-none d-lg-block mb-20">
+                  <div class="row gx-2">
+                     <div class="col-4">
+                        <div class="offcanvas__single-img w-img mb-10">
+                           <a class="popup-img" href="{% static 'img/offcanvas/offcanvas-1.jpg'  %}">
+                              <img src="{% static 'img/offcanvas/offcanvas-1.jpg'  %}" alt="">
+                           </a>
+                        </div>
+                     </div>
+                     <div class="col-4">
+                        <div class="offcanvas__single-img w-img mb-10">
+                           <a class="popup-img" href="{% static 'img/offcanvas/offcanvas-2.jpg'  %}">
+                              <img src="{% static 'img/offcanvas/offcanvas-2.jpg'  %}" alt="">
+                           </a>
+                        </div>
+                     </div>
+                     <div class="col-4">
+                        <div class="offcanvas__single-img w-img mb-10">
+                           <a class="popup-img" href="{% static 'img/offcanvas/offcanvas-3.jpg'  %}">
+                              <img src="{% static 'img/offcanvas/offcanvas-3.jpg'  %}" alt="">
+                           </a>
+                        </div>
+                     </div>
+                     <div class="col-4">
+                        <div class="offcanvas__single-img w-img mb-10">
+                           <a class="popup-img" href="{% static 'img/offcanvas/offcanvas-4.jpg'  %}">
+                              <img src="{% static 'img/offcanvas/offcanvas-4.jpg'  %}" alt="">
+                           </a>
+                        </div>
+                     </div>
+                     <div class="col-4">
+                        <div class="offcanvas__single-img w-img mb-10">
+                           <a class="popup-img" href="{% static 'img/offcanvas/offcanvas-5.jpg'  %}">
+                              <img src="{% static 'img/offcanvas/offcanvas-5.jpg'  %}" alt="">
+                           </a>
+                        </div>
+                     </div>
+                     <div class="col-4">
+                        <div class="offcanvas__single-img w-img mb-10">
+                           <a class="popup-img" href="{% static 'img/offcanvas/offcanvas-6.jpg'  %}">
+                              <img src="{% static 'img/offcanvas/offcanvas-6.jpg'  %}" alt="">
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="offcanvas__map d-none d-lg-block mb-15">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29176.030811137334!2d90.3883827!3d23.924917699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1605272373598!5m2!1sen!2sbd"></iframe>
+               </div>
+               <div class="offcanvas__contact mt-30 mb-20">
+                  <h4> اطلاعات تماس </h4>
+
+                  <ul>
+                     <li class="d-flex align-items-center">
+                        <div class="offcanvas__contact-icon mr-15">
+                           <i class="fal fa-map-marker-alt"></i>
+                        </div>
+                        <div class="offcanvas__contact-text">
+                           <a target="_blank" href="https://www.google.com/maps/place/Dhaka/@23.7806207,90.3492859,12z/data=!3m1!4b1!4m5!3m4!1s0x3755b8b087026b81:0x8fa563bbdd5904c2!8m2!3d23.8104753!4d90.4119873">یک آدرس فرضی در این مکان است</a>
+                        </div>
+                     </li>
+                     <li class="d-flex align-items-center">
+                        <div class="offcanvas__contact-icon mr-15">
+                           <i class="far fa-phone"></i>
+                        </div>
+                        <div class="offcanvas__contact-text">
+                           <a href="mailto:support@gmail.com">088889797697</a>
+                        </div>
+                     </li>
+                     <li class="d-flex align-items-center">
+                        <div class="offcanvas__contact-icon mr-15">
+                           <i class="fal fa-envelope"></i>
+                        </div>
+                        <div class="offcanvas__contact-text">
+                           <a href="tel:+012-345-6789">support@mail.com</a>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+               <div class="offcanvas__social">
+                  <ul>
+                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                     <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                     <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- offcanvas area end -->      
+      <div class="body-overlay"></div>
+      <!-- offcanvas area end -->
+
+      <!-- search overlay start -->
+      <section class="search__area d-flex align-items-center">
+         <div class="container">
+            <div class="row">
+               <div class="col-xxl-12">
+                  <div class="search__wrapper">
+                     <div class="search__close">
+                        <button class="search-close-btn"><i class="fal fa-times"></i></button>
+                     </div>
+                     <form action="#">
+                        <div class="search__input">
+                           <input type="text" placeholder="جستجو ... ">
+                           <button type="submit"><i class="far fa-search"></i></button>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- search overlay end -->
+
+
+      <main>
+
+            <!-- page title area start -->
+            <section class="page__title-area pt-145 pb-150 p-relative page__title-overlay" data-background="{% static 'img/page-title/page-title-1.jpg'  %}">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xxl-12">
+                        <div class="page__title-wrapper">
+                           <h3 class="page__title">خدمات</h3>
+                           <nav aria-label="breadcrumb">
+                              <ol class="breadcrumb">
+                              <li class="breadcrumb-item"><a href="{% url 'website:index' %}"> خانه </a></li>
+                              <li class="breadcrumb-item active" aria-current="page">خدمات</li>
+                              </ol>
+                           </nav>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!-- page title area end -->
+
+            <!-- services area start -->
+            <section class="services__area p-relative z-index-1 pt-120">
+               <div class="services__bottom pb-90">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                           <div class="services__item-5 services__item-12 p-relative mb-30 white-bg z-index-1 fix">
+                              <img class="services-item-shape" src="{% static 'img/services/5/services-item-shape.png' %}" alt="">
+                              <div class="services__icon-5 mb-45">
+                                 <i class="flaticon-mobile-marketing"></i>
+                              </div>
+                              <div class="services__content-5">
+                                 <h3 class="services__title-5">
+                                    <a href="{% url 'website:service_details' %}">دیجیتال مارکتینگ</a>
+                                 </h3>
+                                 <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
+
+                                 <a href="#" class="d-btn-cre d-btn-cre-3">بیشتر بخوانید </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                           <div class="services__item-5 services__item-12 p-relative mb-30 white-bg z-index-1 fix">
+                              <img class="services-item-shape" src="{% static 'img/services/5/services-item-shape.png' %}" alt="">
+                              <div class="services__icon-5 mb-45">
+                                 <i class="flaticon-design"></i>
+                              </div>
+                              <div class="services__content-5">
+                                 <h3 class="services__title-5">
+                                    <a href="{% url 'website:service_details' %}">توسعه وبسایت</a>
+                                 </h3>
+                                 <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
+
+                                 <a href="#" class="d-btn-cre d-btn-cre-3">بیشتر بخوانید </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                           <div class="services__item-5 services__item-12 p-relative mb-30 white-bg z-index-1 fix">
+                              <img class="services-item-shape" src="{% static 'img/services/5/services-item-shape.png' %}" alt="">
+                              <div class="services__icon-5 mb-45">
+                                 <i class="flaticon-financial-report"></i>
+                              </div>
+                              <div class="services__content-5">
+                                 <h3 class="services__title-5">
+                                    <a href="{% url 'website:service_details' %}">راه حل مالی</a>
+                                 </h3>
+                                 <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
+
+                                 <a href="#" class="d-btn-cre d-btn-cre-3">بیشتر بخوانید </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                           <div class="services__item-5 services__item-12 p-relative mb-30 white-bg z-index-1 fix">
+                              <img class="services-item-shape" src="{% static 'img/services/5/services-item-shape.png' %}" alt="">
+                              <div class="services__icon-5 mb-45">
+                                 <i class="flaticon-vector"></i>
+                              </div>
+                              <div class="services__content-5">
+                                 <h3 class="services__title-5">
+                                    <a href="{% url 'website:service_details' %}">طراحی خلاقانه</a>
+                                 </h3>
+                                 <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
+
+                                 <a href="#" class="d-btn-cre d-btn-cre-3">بیشتر بخوانید </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                           <div class="services__item-5 services__item-12 p-relative mb-30 white-bg z-index-1 fix">
+                              <img class="services-item-shape" src="{% static 'img/services/5/services-item-shape.png' %}" alt="">
+                              <div class="services__icon-5 mb-45">
+                                 <i class="flaticon-medical-care"></i>
+                              </div>
+                              <div class="services__content-5">
+                                 <h3 class="services__title-5">
+                                    <a href="{% url 'website:service_details' %}">بیمه و ایمنی </a>
+                                 </h3>
+                                 <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
+
+                                 <a href="#" class="d-btn-cre d-btn-cre-3">بیشتر بخوانید </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                           <div class="services__item-5 services__item-12 p-relative mb-30 white-bg z-index-1 fix">
+                              <img class="services-item-shape" src="{% static 'img/services/5/services-item-shape.png' %}" alt="">
+                              <div class="services__icon-5 mb-45">
+                                 <i class="flaticon-content"></i>
+                              </div>
+                              <div class="services__content-5">
+                                 <h3 class="services__title-5">
+                                    <a href="{% url 'website:service_details' %}">محتوای نوشتن</a>
+                                 </h3>
+                                 <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
+
+                                 <a href="#" class="d-btn-cre d-btn-cre-3">بیشتر بخوانید </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!-- services area end -->
+
+            <!-- cta area start -->
+            <section class="cta__area cta-orange-color">
+               <div class="container">
+                  <div class="cta__wrapper-4 include-bg" data-background="{% static 'img/cta/cta-bg-4.jpg'  %}">
+                     <div class="row align-items-center">
+                        <div class="col-xxl-7 col-xl-8 col-lg-8">
+                           <div class="cta__content-4">
+                              <h3 class="cta__title-4">برای مشاوره تجاری شخصاً با ما تماس بگیرید</h3>
+                           </div>
+                        </div>
+                        <div class="col-xxl-5 col-xl-4 col-lg-4">
+                           <div class="cta__more d-flex justify-content-lg-end">
+                              <a href="#" class="d-btn-bus">پیوستن به تیم ما</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!-- cta area end -->
+
+            <!-- brand area start -->
+            <section class="brand__area pt-120 pb-120">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xxl-12">
+                        <div class="brand__slider-4 owl-carousel">
+                           <div class="brand__item-4 text-center">
+                              <img src="{% static 'img/brand/4/brand-1.png' %}" alt="">
+                           </div>
+                           <div class="brand__item-4 text-center">
+                              <img src="{% static 'img/brand/4/brand-2.png' %}" alt="">
+                           </div>
+                           <div class="brand__item-4 text-center">
+                              <img src="{% static 'img/brand/4/brand-3.png' %}" alt="">
+                           </div>
+                           <div class="brand__item-4 text-center">
+                              <img src="{% static 'img/brand/4/brand-4.png' %}" alt="">
+                           </div>
+                           <div class="brand__item-4 text-center">
+                              <img src="{% static 'img/brand/4/brand-5.png' %}" alt="">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!-- brand area end -->
+      </main>
+{% endblock %}
